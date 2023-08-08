@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import address from './address';
+
+export const schemaTypes = [address]
