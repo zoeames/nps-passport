@@ -1,0 +1,38 @@
+.stamp {
+  position: relative;
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 100%;
+  font-family: "source-code-pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+
+  > * {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .middle-text {
+    top: 138px;
+    width: 300px;
+    margin: 0 auto;
+    font-size: 22px;
+  }
+
+  .default-color {
+    color: black;
+  }
+  .blue-color {
+    color: blue;
+  }
+  .red-color {
+    color: red;
+  }
+  .green-color {
+    color: green;
+  }
+}
